@@ -67,7 +67,7 @@
 
 
 main {
-    height: 4700px;
+    height: auto;
     text-align: center;
     align-items: center;
     color: white;
@@ -80,7 +80,7 @@ main {
 }
 
 body {
-    height: 4700px;
+    height: auto;
     text-align: center;
     align-items: center;
     color: white;
@@ -90,11 +90,6 @@ body {
     padding: 0;
     margin: 0;
     font-size: xx-large;
-}
-
-footer {
-    text-align: left;
-    align-items: left;
 }
 
 label {
@@ -122,12 +117,21 @@ input[type="number"] {
     border: 2px solid #ccc;
 }
 
-form {
-    margin: 20px 0;
-}
-
 button {
     font-size: 20px;
     padding: 12px 24px;
     border-radius: 500px;
+}
+
+.bloco_footer {
+    background-color: white;
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0rem 0rem;
 }

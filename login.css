@@ -1,25 +1,60 @@
-main {
-    height: 4700px;
-    text-align: center;
-    align-items: center;
-    color: white;
-    background-color: black;
-    background-image: linear-gradient(rgb(120, 4, 4), rgb(37, 1, 1));
-    border: 0;
-    padding: 0;
+body {
     margin: 0;
-    font-size: xx-large;
+    background-image: linear-gradient(rgb(120, 4, 4), rgb(37, 1, 1));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
 }
 
-body {
-    height: 4700px;
-    text-align: center;
-    align-items: center;
-    color: white;
-    background-color: black;
-    background-image: linear-gradient(rgb(120, 4, 4), rgb(37, 1, 1));
-    border: 0;
-    padding: 0;
-    margin: 0;
-    font-size: xx-large;
+.logo {
+    width: 300px;
+}
+
+header {
+    font-size: x-large;
+}
+
+input[type ="text"] {
+    font-size: 18px;
+    padding: 12px;
+    width: 30%;
+    border-radius: 500px;
+    border: 2px solid #ccc;
+}
+
+input[type ="date"] {
+    font-size: 18px;
+    padding: 12px;
+    width: 30%;
+    border-radius: 500px;
+    border: 2px solid #ccc;
+}
+
+button {
+    font-size: 20px;
+    padding: 12px;
+    width: 32.5%;
+    border-radius: 500px;
+    border: 2px solid #ccc;
+}
+
+.bloco_cadastro {
+    background: black;
+    border: 2px solid white;
+    padding: 5%;
+    
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.parana {
+    width: 180px;
+}
+
+.escola {
+    width: 240px;
 }
